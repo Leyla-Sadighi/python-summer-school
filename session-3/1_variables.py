@@ -22,3 +22,9 @@ a = 1
 a = 2 # a new obj is created at a new memory address and the reference of
 # a is going to be changed to this new memory location (any we know what
 # will happen to the previous mem location if there is no other reference to it)
+
+
+
+# note: you can create ints of different bases using int():
+a = int() # a will be zero
+a = int('1', base=2) # first argument should be string ::: not an integer? surprising hah?
